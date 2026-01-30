@@ -5,9 +5,9 @@ import { Layout } from './components/Layout';
 import { AIConsultant } from './components/AIConsultant';
 
 // Lazy load pages for performance
-const Home = lazy(() => import('./pages/Home'));
-const Services = lazy(() => import('./pages/Services'));
-const Contact = lazy(() => import('./pages/Contact'));
+const Home = lazy(() => import('./Home'));
+const Services = lazy(() => import('./Services'));
+const Contact = lazy(() => import('./Contact'));
 
 const LoadingFallback = () => (
   <div className="min-h-screen flex items-center justify-center">
